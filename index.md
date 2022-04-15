@@ -39,7 +39,7 @@ schemadotorg:
   # License & Language & url
   license: https://creativecommons.org/licenses/by/4.0/
   inLanguage: "en-us"
-  url: "https://gtpb.github.io/Web_course_template/"
+  url: "https://gtpb.github.io/IBB21/"
 ---
 
 ## Course Description
