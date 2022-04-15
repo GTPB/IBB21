@@ -58,12 +58,9 @@ PhD students at IGC
 ### Instructors
 
 ---
-
-<<<<<<< HEAD
 The source for this course webpage is [on github](https://github.com/GTPB/Web_course_template).
 =======
 The source for this course webpage is [in github](https://github.com/GTPB/Web_course_template).
->>>>>>> a230923f78a1c403115710ae44b3c92817fb6b79
 
 <br/>
 
