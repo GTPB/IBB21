@@ -49,7 +49,8 @@ Introduction do scripting with BASH
 PhD students at IGC
 
 ## Detailed Program
-
+Topic one:
+[a relative link](test.md)
 
 ---
 
