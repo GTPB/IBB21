@@ -11,14 +11,7 @@ highlighter: rouge
 title : GTPB Courses
 author :
   name : GTPB
-=======
-title : IBB Courses
-author :
-  name : GTPB21
-=======
-title : IBB Courses
-author :
-  name : IBB21
+
 
   email : bicourses@igc.gulbenkian.pt
   github : github.com/GTPB
