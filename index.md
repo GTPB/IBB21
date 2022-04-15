@@ -50,7 +50,7 @@ PhD students at IGC
 
 ## Detailed Program
 Topic one:
-[a relative link](https://gtpb.github.io/IBB21/test.md) 
+[a relative link](https://gtpb.github.io/IBB21/pages/test.md) 
 
 ---
 
