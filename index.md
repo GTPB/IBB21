@@ -43,10 +43,10 @@ schemadotorg:
 ---
 
 ## Course Description
-
+Introduction do scripting with BASH
 
 ## Target Audience
-
+PhD students at IGC
 
 ## Detailed Program
 

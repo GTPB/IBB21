@@ -8,9 +8,15 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
+<<<<<<< HEAD
 title : GTPB Courses
 author :
   name : GTPB
+=======
+title : IBB Courses
+author :
+  name : GTPB21
+>>>>>>> master
 =======
 title : IBB Courses
 author :
