@@ -50,7 +50,7 @@ PhD students at IGC
 
 ## Detailed Program
 Topic one:
-1. [Introduction](test.md) 
+1. [Introduction](pages/test.md) 
 
 ---
 
