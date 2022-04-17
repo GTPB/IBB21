@@ -49,7 +49,7 @@ Introduction do scripting with BASH
 PhD students at IGC
 
 ## Detailed Program
-Topic one:
+
 1. [Introduction](pages/test.md) 
 
 ---
