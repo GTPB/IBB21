@@ -57,8 +57,11 @@ PhD students at IGC ...
 ### Learning objectives
 
 ### Instructors
+
 * Pedro Fernandes
+
 * Gonçalo Leiria
+
 ---
 The source for this course webpage is [on github](https://github.com/GTPB/Web_course_template).
 =======
