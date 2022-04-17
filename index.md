@@ -8,7 +8,7 @@ schemadotorg:
   # Course details
        # "name" -> The acronym and extended name of the course, separated by " - "
        # "description" -> Short description of the course
-  name: "COURSE_SHORT - COURSE_EXTENDED_NAME"
+  name: "GTPB/IBB21 - Introduction to Scripting"
   description: ""
 
   # Keywords -> Consult EDAM:Topic
@@ -43,10 +43,10 @@ schemadotorg:
 ---
 
 ## Course Description
-Introduction do scripting with BASH
+Introduction do scripting with BASH ...
 
 ## Target Audience
-PhD students at IGC
+PhD students at IGC ... 
 
 ## Detailed Program
 
@@ -57,7 +57,8 @@ PhD students at IGC
 ### Learning objectives
 
 ### Instructors
-
+* Pedro Fernandes
+* Gonçalo Leiria
 ---
 The source for this course webpage is [on github](https://github.com/GTPB/Web_course_template).
 =======
