@@ -50,7 +50,8 @@ PhD students at IGC ...
 
 ## Detailed Program
 
-1. [Introduction](pages/test.md) 
+1. [Introduction](pages/Introduction.md)
+2. [Exercises](pages/Exercises.md) 
 
 ---
 
