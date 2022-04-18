@@ -42,6 +42,10 @@ schemadotorg:
   url: "https://gtpb.github.io/IBB21/"
 ---
 
+
+![](assets/readme_img/blank_computer_screen.png)
+
+
 ## Course Description
 Introduction do scripting with BASH ...
 
