@@ -1,14 +1,14 @@
-##### Introduction to Scripting with Bash
+# Introduction to Scripting with Bash
 
 ![](../assets/readme_img/scripting.jpg)
 
-# What is a script?
+### What is a script?
 
 * A script is a text file.
 * A text file file living on the disk which has some text in it.
 * The text is a series of commandands which are interpreted by bash. 
 
-# Scripting vs Programming
+### Scripting vs Programming
 
 * Although scripting languages are programming languages, not all programming languages are 	  scripting languages.
 * With one we use a **compiler**, with the other we use an **interpreter**.
@@ -19,13 +19,13 @@
 
 * Bash is a scripting language. Bash, in Linux, allows us to **automate repetitive tasks** using its own expressions and programming logic.    
 
-# Why are scripts useful and powerful?
+### Why are scripts useful and powerful?
 
 * Reproducibility (...)
 * Accuracy (...)
 * Productivity (...)
 
-# There are some special features in scripts:
+### There are some special features in scripts:
 
 Shibang line (tells the system how you want the script to be interpreted).
 
@@ -59,10 +59,10 @@ If it gets to the end of the PATH without finding the executable we asked for:
 ```
 **Note:** if we use `./` before the command, we  are dinamically adding that specific command to the PATH. 
 
-## Into Scripting
+### Into Scripting
 The idea behind scripting is to provide us a means of not just running a single command, which we can easily do directly from the command line, but to run a series of commands automatically in a single process. We run a script, and the script runs the commands for us in the order we ask it for.
 
-# A simple script
+### A simple script
 To run our very first script, we will take a couple of commands that are often used repetively in the command line and save them into a file so that we can use them later by typing **one single command**.
 
 Move to xxx directory and create a new file called `my_script.sh` using `nano`. 
@@ -70,13 +70,13 @@ Move to xxx directory and create a new file called `my_script.sh` using `nano`.
 Our script will do two things:
 
 1) bla bla bla
+
 2) bla bla bla 
 
 ```bash
 #!/bin/bash
 
 echo "Number of lines:"
-
 wc -l "$1"
 ```
 
