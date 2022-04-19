@@ -1,4 +1,7 @@
 
+
+![](assets/readme_img/scripting.jpg)
+
 ## What is a script?
 
 * A script is a text file.
