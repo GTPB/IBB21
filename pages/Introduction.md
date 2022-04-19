@@ -69,16 +69,99 @@ Move to xxx directory and create a new file called `my_script.sh` using `nano`.
 
 Our script will do two things:
 
-1) bla bla bla
+1) print current working directory
 
-2) Pedro
+2) count number of lines in a file
 
 ```bash
 #!/bin/bash
 
-echo "Number of lines:"
+pwd
 wc -l "$1"
 ```
+
+### Other features that make scripts powerful and versatile
+
+* Variables
+* Conditionals
+* Parsing arguments into scripts
+
+### Turing complete programming languages
+
+If you want to write a programme that is able to achieve any computational task that you pass to it, the programming language has to be “Turing complete”.
+
+Essencially, that means your programming language is capable of performing:
+
+* conditional repetition.
+
+* has readable and writable mechanisms of storage.
+
+These features are what make a programming language “Turing complete”.
+
+BASH and Python are “Turing complete” programming languages.
+
+We can perform conditional repetition and we have a readable and writable storage mechanism within BASH and Python themselfs.
+
+### Variables
+
+Variables are a way of storing information within our programme. This information can be retrieved during the programme.
+
+Bash has a very particular syntax to both define and retrieve variables.
+
+```bash
+VAR="hello IGC"
+echo ${VAR}
+```
+In UNIX, there are system variables that are already set for us: **environment variables**
+
+```bash
+echo ${PWD}
+echo ${HOME}
+echo ${PATH}
+```
+
+### Parsing arguments to scripts
+
+We can change the behaviour of scripts without changing the script itself.
+
+```bash
+#!/bin/bash
+
+VAR="hello world"
+SLEEP=3
+
+echo ${1}
+echo ${2}
+sleep $SLEEP
+echo ${VAR}
+```
+Passing arguments to scripts can be extremelly useful to make them more configurable and usable.
+
+```bash
+#!/bin/bash
+
+VAR="hello world"
+
+echo ${1}
+echo ${2}
+sleep ${3}
+
+echo "The number of arguments is: ${#}"
+echo "The list of arguments is: ${@}"
+echo ${VAR}
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
