@@ -71,7 +71,7 @@ Our script will do two things:
 
 1) bla bla bla
 
-2) bla bla bla 
+2) Pedro
 
 ```bash
 #!/bin/bash
