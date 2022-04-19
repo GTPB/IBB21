@@ -1,6 +1,6 @@
 
 
-![](assets/readme_img/scripting.jpg)
+![](../assets/readme_img/scripting.jpg)
 
 ## What is a script?
 
