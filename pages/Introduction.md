@@ -8,22 +8,26 @@
 * A text file file living on the disk which has some text in it.
 * The text is a series of commandands which are interpreted by bash. 
 
-### Scripting vs Programming
+### Scripts vs Programs
 
-* Although scripting languages are programming languages, not all programming languages are 	  scripting languages.
-* With one we use a **compiler**, with the other we use an **interpreter**.
-* Programming languages use a **compiler** to execute code. The source code is converted to machine code using a **compiler**.The compiler translates all the source code into machine code before executing it. 
-* Scripting languages use an **interpreter**. Source is converted to machine code using an interpreter.
+It is important to understad the difference between "scripts" and "real programs". Scripts do not do any significant computation on their own. Rather, scripts run "real programs" to do most of the computational work. The job of a script is to **automate** and **document** the process of running programs. 
 
-“Scripting is a programming task that allows you to connect diverse existing components to accomplish a new related task. Scripting is the “Glue” that allows you to put various existing elements together. Programming, on the other hand, allows you to build components from scratch, as well as the applications that incorporate these components.”
+As a result, scripting languages do not need to be very efficient (they are orders of magnitude slower than compiled languages) and they are generally **interpreted** rather than **compiled**.
 
-* Bash is a scripting language. Bash, in Linux, allows us to **automate repetitive tasks** using its own expressions and programming logic.    
+Real programs, may be very large and computationally expensive and therefore they are written close to machine language. 
 
-### Why are scripts useful and powerful?
+Since we are simply interested in **automating the execution of pre-existing commands or softwares**, picking up a scripting language and write a script will do the job just write. 
 
-* Reproducibility (...)
-* Accuracy (...)
-* Productivity (...)
+### What makes scrips useful and powerful?
+
+**Efficiency** 
+Automation of tasks makes work extremelly efficient. 
+
+**Accuracy**
+Typing the same commands over and over again is very prone to human error.
+
+**Documentation**
+A script become documentation of the work we performed on a machine. We have a record of the precise sequence of commands needed to **reproduce results**. 
 
 ### There are some special features in scripts:
 
