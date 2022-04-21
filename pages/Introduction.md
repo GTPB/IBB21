@@ -21,12 +21,15 @@ Since we are simply interested in **automating the execution of pre-existing com
 ### What makes scrips useful and powerful?
 
 **Efficiency** 
+
 Automation of tasks makes work extremelly efficient. 
 
 **Accuracy**
+
 Typing the same commands over and over again is very prone to human error.
 
 **Documentation**
+
 A script become documentation of the work we performed on a machine. We have a record of the precise sequence of commands needed to **reproduce results**. 
 
 ### There are some special features in scripts:
