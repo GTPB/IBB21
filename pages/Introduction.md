@@ -172,16 +172,70 @@ for letter in a b c d
 		echo ${letter}
 	done
 ```
+The syntax and structure of a for loop does not change much. What we might change is the input for it and where we get those inputs from. 
+
+
+## Exercise 1
+
+Write a script to download sequences from uniPROT and use those sequences to build a multiple alignment. The uniPROT entries are in a text file called `uniprot_ids.txt` in the `examples_dir`directory. 
+
+By the end of this exercise you should able to:
+    
+   * Get uniProt IDs from `uniprot_ids.txt` and assign them to a variable.
+   * Assign uniprot URL to another variable.
+   * Use a for loop to download each fasta file associated with respective uniprot entry. 
+   * Concatenate each fasta file downloaded into a single file to use as input. 
+   * Use produced output for downstream analysis
 
 
 
 
+```bash
+#!/bin/bash
 
+VAR=$(cat uniprot_ids.txt)
 
+URL="http://www.uniprot.org/uniprot/"
 
+for i in ${VAR}
+    do
+        echo "Downloading Uniprot entry: ${i}"
+        wget ${URL}${i}.fasta
+        echo "Done! Successfully downloaded ${i}"
+    done
+```
 
+### and
 
+```bash
+#!/bin/bash
 
+#!/bin/bash
+
+# getting input data
+VAR=$(cat uniprot_ids.txt)
+
+URL="http://www.uniprot.org/uniprot/"
+
+#download data
+for i in ${VAR}
+    do
+        echo "Downloading Uniprot entry: ${i}"
+        wget ${URL}${i}.fasta
+        echo "Done! Successfully downloaded ${i}"
+
+        cat ${i}.fasta >> muscle_input.fasta
+        echo "File writen"
+        rm ${i}.fasta
+    done
+
+sleep 2
+echo "Starting Muscle"
+
+#run muscle
+muscle -align muscle_input.fasta -output muscle_output.afa
+echo "Done!"
+```
 
 
 
