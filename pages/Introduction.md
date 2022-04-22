@@ -4,9 +4,9 @@
 
 ### What is a script?
 
-* A script is a text file.
-* A text file file living on the disk which has some text in it.
-* The text is a series of commandands which are interpreted by bash. 
+A script is a text file living on the disk which has some text in it. The text is a series of commands which must be run/executed from the command line.
+
+ 
 
 ### Scripts vs Programs
 
@@ -45,7 +45,7 @@ It needs to be an executable.
 echo ${PATH}
 ```
 
-These are directories where the systems expect to find executable files.
+These are directories where the system expects to find executable files.
 When we type:
 
 ```bash
@@ -70,11 +70,12 @@ If it gets to the end of the PATH without finding the executable we asked for:
 The idea behind scripting is to provide us a means of not just running a single command, which we can easily do directly from the command line, but to run a series of commands automatically in a single process. We run a script, and the script runs the commands for us in the order we ask it for.
 
 ### A simple script
+
 To run our very first script, we will take a couple of commands that are often used repetively in the command line and save them into a file so that we can use them later by typing **one single command**.
 
-Move to xxx directory and create a new file called `my_script.sh` using `nano`. 
+Move to `examples` directory and create a new file called `my_script.sh` using `nano`. 
 
-Our script will do two things:
+We want our simple script to do two things:
 
 1) print current working directory
 
@@ -116,6 +117,7 @@ Variables are a way of storing information within our programme. This informatio
 Bash has a very particular syntax to both define and retrieve variables.
 
 ```bash
+#!/bin/bash
 VAR="hello IGC"
 echo ${VAR}
 ```
@@ -158,9 +160,18 @@ echo "The list of arguments is: ${@}"
 echo ${VAR}
 ```
 
+### For loops
 
+For loops are what is called a **flow control structure** in programming. 
 
+```bash
+#!/bin/bash
 
+for letter in a b c d
+	do
+		echo ${letter}
+	done
+```
 
 
 
