@@ -4,19 +4,15 @@
 
 ### What is a script?
 
-A script is a text file living on the disk which has some text in it. The text is a series of commands which must be run/executed from the command line.
-
- 
+A script is a text file living on the disk which has some text in it. This text is a series of commands which will be executed line by line in sequence. Importantly, when we run a script we are transfering the control of the system from the user to the script. The operating system will listen from the script and not from the command line. The scritps takes over.  
 
 ### Scripts vs Programs
 
-It is important to understad the difference between "scripts" and "real programs". Scripts do not do any significant computation on their own. Rather, scripts run "real programs" to do most of the computational work. The job of a script is to **automate** and **document** the process of running programs. 
+Scripts do not do any significant computation on their own. Instead, they run "programs" that do the computational work. The job of a script is to **automate** and **document** the execution of commands/programs that were already created by others. 
 
-As a result, scripting languages do not need to be very efficient (they are orders of magnitude slower than compiled languages) and they are generally **interpreted** rather than **compiled**.
+the process of running programs. 
 
-Real programs, may be very large and computationally expensive and therefore they are written close to machine language. 
-
-Since we are simply interested in **automating the execution of pre-existing commands or softwares**, picking up a scripting language and write a script will do the job just write. 
+As a result, scripting languages do not need to be very efficient (they are orders of magnitude slower than compiled languages) so we can take advantage of it to write them in high level languages which are much easier to write, read and degub.
 
 ### What makes scrips useful and powerful?
 
@@ -177,18 +173,16 @@ The syntax and structure of a for loop does not change much. What we might chang
 
 ## Exercise 1
 
-Write a script to download sequences from uniPROT and use those sequences to build a multiple alignment. The uniPROT entries are in a text file called `uniprot_ids.txt` in the `examples_dir`directory. 
+**Intended learning outcomes:**
 
-By the end of this exercise you should able to:
-    
-   * Get uniProt IDs from `uniprot_ids.txt` and assign them to a variable.
-   * Assign uniprot URL to another variable.
-   * Use a for loop to download each fasta file associated with respective uniprot entry. 
-   * Concatenate each fasta file downloaded into a single file to use as input. 
-   * Use produced output for downstream analysis
+   * Using variables to store data such uniProt IDs and URL to get sequences from the web.
+   * Use for loops to download fasta files associated with respective uniProt entry.
+   * Use `wget` to retrieve files from web servers.
+   * Concatenate multiple fasta files in a single file for downstream analysis.
+   * Use output as input for another software down the pipeline. 
 
 
-
+Write a script to download sequences from uniPROT and use those sequences to build a multiple alignment. The uniPROT entries are in a text file called `uniprot_ids.txt` in the `exercise_1`directory. 
 
 ```bash
 #!/bin/bash
@@ -197,11 +191,9 @@ VAR=$(cat uniprot_ids.txt)
 
 URL="http://www.uniprot.org/uniprot/"
 
-for i in ${VAR}
+for ID in ${VAR}
     do
-        echo "Downloading Uniprot entry: ${i}"
-        wget ${URL}${i}.fasta
-        echo "Done! Successfully downloaded ${i}"
+        wget ${URL}${ID}.fasta
     done
 ```
 
@@ -220,28 +212,63 @@ URL="http://www.uniprot.org/uniprot/"
 #download data
 for i in ${VAR}
     do
-        echo "Downloading Uniprot entry: ${i}"
         wget ${URL}${i}.fasta
-        echo "Done! Successfully downloaded ${i}"
 
         cat ${i}.fasta >> muscle_input.fasta
-        echo "File writen"
+    
         rm ${i}.fasta
     done
 
-sleep 2
-echo "Starting Muscle"
-
-#run muscle
+#Use outoput to download muscle
 muscle -align muscle_input.fasta -output muscle_output.afa
-echo "Done!"
 ```
 
+### if/else statements
 
 
 
 
+## Exercise 2
 
+```python
+#!/usr/bin/env python3
+
+#opening fastq file
+with open("SRR_test.fastq","r") as f:
+
+    # sequence index
+    seq_line = 1
+    # generators for good and bad reads
+    good_reads = []
+    bad_reads = []
+
+
+    x = f.readlines() # puts all lines in a list. Each line is an element in the list
+
+    for index, line in enumerate(x):
+        if index == seq_line: 
+            
+            if line.count("N") > 10:
+                bad_reads.append(x[seq_line-1:seq_line+3])
+
+            else:
+                good_reads.append(x[seq_line-1:seq_line+3])
+
+            seq_line = seq_line + 4
+
+# writing bad reads file
+with open ("bad_reads.fastq","w") as f3:
+    for line in bad_reads:
+        for element in line:
+            f3.write(element)
+
+# writing good reads file
+with open("good_reads.fastq","w") as f2:
+    for line in good_reads:
+        for element in line:
+            f2.write(element)
+
+```
 
 
 
