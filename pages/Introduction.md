@@ -207,14 +207,13 @@ Write a script to download insulin protein sequences from varies species from un
 
 **Intended learning outcomes:**
 
-* Reading files in python
-* Manipulating files in python
-* Append output from for loops to empty lists
-* Apply if/else statements 
-* Apply nested loops 
-* Write files in python
+* Getting data into python environment 
+* Using python to filter data
+* Using if/else statements 
+* Using nested loops 
+* Write data into files
 
-When getting data from a sequencing facility, a common first task is to separate good and bad reads for downstream analysis. Keeping a good and clean FASTQ file reduces processing time and disk occupation.
+When getting data from a sequencing facility, a common first task is to separate good and bad reads for downstream analysis. Keeping a good and clean FASTQ file reduces processing time and disk usage.
 In this exercise we will write a python script to iterate over FASTQ files and filter reads according to their percentage of `NNNNNNs`.
 
 [Solution for Exercise 2](Solution_2.md)
