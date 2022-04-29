@@ -184,10 +184,10 @@ The syntax and structure of a for loop does not change much. What we might chang
 
 Write a script to download insulin protein sequences from varies species from uniPROT and use those sequences to build a multiple alignment using MUSCLE. The uniPROT entries are in a text file called `uniprot_ids.txt` in the `exercise_1`directory. 
 
-[Solution for Exercise 1](pages/Solution_1.md)
+[Solution for Exercise 1](Solution_1.md)
 
 ### if/else statements
-
+bla bla bla
 
 
 
