@@ -182,46 +182,9 @@ The syntax and structure of a for loop does not change much. What we might chang
    * Use output as input for another software down the pipeline. 
 
 
-Write a script to download sequences from uniPROT and use those sequences to build a multiple alignment. The uniPROT entries are in a text file called `uniprot_ids.txt` in the `exercise_1`directory. 
+Write a script to download insulin protein sequences from varies species from uniPROT and use those sequences to build a multiple alignment using MUSCLE. The uniPROT entries are in a text file called `uniprot_ids.txt` in the `exercise_1`directory. 
 
-```bash
-#!/bin/bash
-
-VAR=$(cat uniprot_ids.txt)
-
-URL="http://www.uniprot.org/uniprot/"
-
-for ID in ${VAR}
-    do
-        wget ${URL}${ID}.fasta
-    done
-```
-
-### and
-
-```bash
-#!/bin/bash
-
-#!/bin/bash
-
-# getting input data
-VAR=$(cat uniprot_ids.txt)
-
-URL="http://www.uniprot.org/uniprot/"
-
-#download data
-for i in ${VAR}
-    do
-        wget ${URL}${i}.fasta
-
-        cat ${i}.fasta >> muscle_input.fasta
-    
-        rm ${i}.fasta
-    done
-
-#Use outoput to download muscle
-muscle -align muscle_input.fasta -output muscle_output.afa
-```
+[Solution for Exercise 1](pages/Solution_1.md)
 
 ### if/else statements
 
