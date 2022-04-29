@@ -151,8 +151,6 @@ echo ${1}
 echo ${2}
 sleep ${3}
 
-echo "The number of arguments is: ${#}"
-echo "The list of arguments is: ${@}"
 echo ${VAR}
 ```
 
@@ -216,8 +214,8 @@ Write a script to download insulin protein sequences from varies species from un
 * Apply nested loops 
 * Write files in python
 
-When getting data from a sequencing facility a common first task is to scan FASTQ files to pull out bad reads and write them into a file. 
-In this exercise we will write a python script that will iterate over two FASTQ files containing around half million reads each and look for low quality sequences presenting a high percentage of `NNNNNNs`.
+When getting data from a sequencing facility, a common first task is to separate good and bad reads for downstream analysis. Keeping a good and clean FASTQ file reduces processing time and disk occupation.
+In this exercise we will write a python script to iterate over FASTQ files and filter reads according to their percentage of `NNNNNNs`.
 
 [Solution for Exercise 2](Solution_2.md)
 
