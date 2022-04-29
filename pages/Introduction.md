@@ -186,52 +186,41 @@ Write a script to download insulin protein sequences from varies species from un
 
 [Solution for Exercise 1](Solution_1.md)
 
-### if/else statements
-bla bla bla
+***********************************************************************
+***********************************************************************
 
+### Other things I need to touch before moving to exercise 2
+
+**if/else statements**
+
+**nested loops (loops inside loops)**
+
+**reading and writing files in python**
+
+**empty lists**
+
+**append() function**
+
+***********************************************************************
+***********************************************************************
 
 
 ## Exercise 2
 
-```python
-#!/usr/bin/env python3
+**Intended learning outcomes:**
 
-#opening fastq file
-with open("SRR_test.fastq","r") as f:
+* Reading files in python
+* Manipulating files in python
+* Append output from for loops to empty lists
+* Apply if/else statements 
+* Apply nested loops 
+* Write files in python
 
-    # sequence index
-    seq_line = 1
-    # generators for good and bad reads
-    good_reads = []
-    bad_reads = []
+When getting data from a sequencing facility a common first task is to scan FASTQ files to pull out bad reads and write them into a file. 
+In this exercise we will write a python script that will iterate over two FASTQ files containing around half million reads each and look for low quality sequences presenting a high percentage of `NNNNNNs`.
 
+[Solution for Exercise 2](Solution_2.md)
 
-    x = f.readlines() # puts all lines in a list. Each line is an element in the list
-
-    for index, line in enumerate(x):
-        if index == seq_line: 
-            
-            if line.count("N") > 10:
-                bad_reads.append(x[seq_line-1:seq_line+3])
-
-            else:
-                good_reads.append(x[seq_line-1:seq_line+3])
-
-            seq_line = seq_line + 4
-
-# writing bad reads file
-with open ("bad_reads.fastq","w") as f3:
-    for line in bad_reads:
-        for element in line:
-            f3.write(element)
-
-# writing good reads file
-with open("good_reads.fastq","w") as f2:
-    for line in good_reads:
-        for element in line:
-            f2.write(element)
-
-```
 
 
 
