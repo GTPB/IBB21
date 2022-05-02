@@ -30,7 +30,7 @@ A script become documentation of the work we performed on a machine. We have a r
 
 ### There are some special features in scripts:
 
-Shibang line (tells the system how you want the script to be interpreted).
+Special comment line (tells the system how you want the script to be interpreted).
 
 ```bash
 #!/bin/bash
@@ -187,6 +187,15 @@ Write a script to download insulin protein sequences from varies species from un
 ***********************************************************************
 ***********************************************************************
 
+## Exercise 2
+
+GC content is informative in several ways. Higher GC content levels indicates a relatively higher melting temperature in molecular biology, and DNA sequences that encode proteins tend to be found in GC-rich regions of the genome. Filter data from seq facility according to GC content. Low GC content no conding sequences. 
+
+
+
+***********************************************************************
+***********************************************************************
+
 ### Other things I need to touch before moving to exercise 2
 
 **if/else statements**
@@ -197,13 +206,13 @@ Write a script to download insulin protein sequences from varies species from un
 
 **empty lists**
 
-**append() function**
+**objects and methods**
 
 ***********************************************************************
 ***********************************************************************
 
 
-## Exercise 2
+## Exercise 3
 
 **Intended learning outcomes:**
 
@@ -214,7 +223,7 @@ Write a script to download insulin protein sequences from varies species from un
 * Write data into files
 
 When getting data from a sequencing facility, a common first task is to separate good and bad reads for downstream analysis. Keeping a good and clean FASTQ file reduces processing time and disk usage.
-In this exercise we will write a python script to iterate over FASTQ files and filter reads according to their percentage of `NNNNNNs`.
+In this exercise we will write a python script to pre-process FASTQ files and filter reads according to their percentage of `NNNNNNNs`.
 
 [Solution for Exercise 2](Solution_2.md)
 
