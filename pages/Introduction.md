@@ -2,11 +2,11 @@
 
 ![](../assets/readme_img/scripting.jpg)
 
-### Why do we want to write scripts?
+### Why writing scripts?
 
 **Efficiency** 
 
-Automation of tasks makes work extremelly efficient. 
+Automation of tasks makes your work extremelly efficient. 
 
 **Accuracy**
 
@@ -14,17 +14,17 @@ Typing the same commands over and over again is very prone to human error.
 
 **Documentation**
 
-A script become documentation of the work we performed on a machine. We have a record of the precise sequence of commands needed to **reproduce results**. 
+A script becomes documentation of the work we performed on a machine. We have a record of the precise sequence of commands needed to **reproduce results**. 
 
 ### What is a script?
 
-A script is a text file living on the disk which has some text in it. This text is a series of commands which will be executed line by line in sequence. Importantly, when we run a script we are transfering the control of the system from the user to the script. The operating system will listen from the script and not from the command line. The scritps takes over.  
+A script is a text file living on the disk which has some text in it. This text is a series of commands which will be executed line by line in sequence. Importantly, when we run a script we are transfering the control of the system from the user to the script. The operating system will listen from the script and not from the command line. The scritp takes over.  
 
 ### Scripts vs Programs
 
-Scripts do not do any significant computation on their own. Instead, they run "programs" that do the computational work. The job of a script is to **automate** and **document** the execution of programs that were already created by others. 
+Scripts do not do any significant computation on their own. Instead, they run "programs" that do the computational work itself. The job of a script is to **automate** and **document** the execution of programs that were already created by others. 
 
-As a result, scripting languages do not need to be very efficient (they can be orders of magnitude slower than compiled languages) so we can take advantage of it and write them in scripting languages which are much more similar to human language. 
+As a result, scripting languages do not need to be very efficient (they can be orders of magnitude slower than compiled languages) so we can take advantage of it and write them in scripting languages which are much easier to write, read and debug.  
 
 
 ### There are some special features in scripts:
@@ -39,12 +39,12 @@ Special comment line (tells the system how you want the script to be interpreted
 ```
 The script needs to be an executable:
 
-1) Give executing permissions
+1) Give executing permissions:
 ```bash
 chmod +x file_name
 ```
 
-2) Give full path when executing script
+2) Give full path when executing script:
 ```bash
 ./file_name
 ```
@@ -56,7 +56,7 @@ The idea behind scripting is to provide us a means of not just running a single 
 
 To run our very first script, we will take a couple of commands that are often used repetively in the command line and save them into a file so that we can use them later by typing **one single command**.
 
-Move to `examples` directory and create a new file called `my_script.sh` using `nano`. 
+Move to `Desktop/Scripting/exercise_1_Dir` and create a new file called `my_script.sh`. 
 
 We want our simple script to do two things:
 
@@ -70,17 +70,17 @@ pwd
 wc -l "$1"
 ```
 
-### Powerful and versatile
+### Powerful and versatile scripts
 
 * Readable and writable mechanisms of storage
 * Conditional repetition 
-* Parsing arguments into scripts
+* Passing arguments into scripts
 
-BASH and Python allow us to perform conditional repetition and we have a readable and writable storage mechanism within BASH and Python themselfs.
+BASH and Python allow us to perform conditional repetition, both have readable and writable mechanisms of storage and have ways of passing arguments ro scripts.
 
 ### Variables
 
-Variables are a way of storing information within our programme. This information can be retrieved during the programme.
+Variables are a way of storing information within our programme. This information can be retrieved during the programme execution. 
 
 bash and pyhthon have very simple ways of storing and retrieving info from variables.
 
@@ -102,9 +102,9 @@ For loops are used when you want to repeat a block of code a fixed number of tim
 ```bash
 #!/bin/bash
 
-for l in a b c d
+for c in a b c d
     do
-        echo ${l}
+        echo ${c}
     done
 ```
 The syntax and structure of a for loop does not change much. What we might change is the input for it and where we get those inputs from. 
@@ -128,15 +128,18 @@ echo ${1}
 
 **Intended learning outcomes:**
 
-   * Using variables to store uniProt IDs and URL to get sequences from the web.
-   * Use for loops to download fasta files associated with respective uniProt entries.
+Write a script to download insulin protein sequences from uniPROT and use those sequences to build a multiple alignment using MUSCLE. The uniPROT entries are in a text file called `uniprot_ids.txt` in the `exercise_1_Dir`directory.
+
+
+**url:**`http://www.uniprot.org/uniprot/`
+
+**Intended learning outcomes:**
+
+   * Using variables to store uniProt IDs and URL to use down the script to get sequences from the web.
+   * Use a for loop to download fasta files associated with respective uniProt entries.
    * Use `wget` to retrieve files from web servers.
    * Aggregate multiple fasta files in a single file for downstream analysis.
    * Use output as input for another software. 
-
-
-Write a script to download insulin protein sequences from uniPROT and use those sequences to build a multiple alignment using MUSCLE. The uniPROT entries are in a text file called `uniprot_ids.txt` in the `exercise_1_Dir`directory. The url to get the sequences from Uniprot is: 
-`http://www.uniprot.org/uniprot/`
 
 [Solution for Exercise 1](Solution_1.md)
 
@@ -145,7 +148,9 @@ Write a script to download insulin protein sequences from uniPROT and use those 
 
 ## Exercise 2
 
-GC content is informative in several ways. Higher GC content levels indicates a relatively higher melting temperature in molecular biology, and DNA sequences that encode proteins tend to be found in GC-rich regions of the genome. Filter data from seq facility according to GC content. Low GC content no conding sequences. 
+GC content is informative in several ways. Higher GC content levels indicate a relatively higher melting temperature in molecular biology and DNA sequences that encode proteins tend to be found in GC-rich regions of the genome. In this exercise we will filter 
+
+Filter data from seq facility according to GC content. Low GC content no conding sequences. 
 
 ***********************************************************************
 ***********************************************************************
