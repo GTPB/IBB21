@@ -12,13 +12,13 @@ Automation of tasks makes your work extremelly efficient.
 
 Typing the same commands over and over again is very prone to human error.
 
-**Documentation**
+**Reproducibility**
 
 A script becomes documentation of the work we performed on a machine. We have a record of the precise sequence of commands needed to **reproduce results**. 
 
 ### What is a script?
 
-A script is a text file living on the disk which has some text in it. This text is a series of commands which will be executed line by line in sequence. Importantly, when we run a script we are transfering the control of the system from the user to the script. The operating system will listen from the script and not from the command line. The scritp takes over.  
+A script is a text file living on the disk which has some text in it. Importantly, this text is a series of commands which will be executed line by line in sequence. When we run a script we are transfering the control of the system from the user to the script. The operating system will listen from the script and not from the command line. The script takes over.  
 
 ### Scripts vs Programs
 
@@ -66,13 +66,16 @@ We want our simple script to do two things:
 
 ```bash
 #!/bin/bash
+echo "hello IGC"
 pwd
-wc -l "$1"
+ls -l
+sleep 3
+echo "I am done..."
 ```
 
 ### Powerful and versatile scripts
 
-* Readable and writable mechanisms of storage
+* Readable and writable mechanisms of storing information
 * Conditional repetition 
 * Passing arguments into scripts
 
@@ -102,9 +105,9 @@ For loops are used when you want to repeat a block of code a fixed number of tim
 ```bash
 #!/bin/bash
 
-for c in a b c d
+for element in a b c d
     do
-        echo ${c}
+        echo ${element}
     done
 ```
 The syntax and structure of a for loop does not change much. What we might change is the input for it and where we get those inputs from. 
@@ -120,7 +123,7 @@ VAR="hello world"
 SLEEP=3
 
 echo ${VAR}
-sleep $SLEEP
+sleep ${SLEEP}
 echo ${1}
 ```
 
@@ -135,22 +138,38 @@ Write a script to download insulin protein sequences from uniPROT and use those 
 
 **Intended learning outcomes:**
 
-   * Using variables to store uniProt IDs and URL to use down the script to get sequences from the web.
+   * Using variables to store uniProt IDs and URL to use down the script.
    * Use a for loop to download fasta files associated with respective uniProt entries.
    * Use `wget` to retrieve files from web servers.
-   * Aggregate multiple fasta files in a single file for downstream analysis.
-   * Use output as input for another software. 
+   * Aggregate multiple fasta files in a single file for downstream analysis (MUSCLE input).
+   * Use generated output as input for muscle 
 
 [Solution for Exercise 1](Solution_1.md)
 
 ***********************************************************************
 ***********************************************************************
 
+###
+
+
+###
+
+
+###
+
+
+###
+
 ## Exercise 2
 
-GC content is informative in several ways. Higher GC content levels indicate a relatively higher melting temperature in molecular biology and DNA sequences that encode proteins tend to be found in GC-rich regions of the genome. In this exercise we will filter 
+GC content is informative in several ways. For example, higher GC content levels indicate a relatively higher melting temperature in molecular biology. Also, DNA sequences that encode proteins tend to be found in GC-rich regions of the genome. A common task in bioinformatics is to extract contigs with a GC content percentage bellow a certain value. 
+In this exercise we will write a python script that will scan fasta files and output the percentage of GC content on each contig to the user.
 
-Filter data from seq facility according to GC content. Low GC content no conding sequences. 
+**Intended learning outcomes:**
+*
+*
+*
+*
 
 ***********************************************************************
 ***********************************************************************

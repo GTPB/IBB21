@@ -25,40 +25,17 @@ VAR=$(cat uniprot_ids.txt)
 
 URL="http://www.uniprot.org/uniprot/"
 
-for i in ${VAR}
+for entry in ${VAR}
     do
-        wget ${URL}${i}.fasta
+        wget ${URL}${entry}.fasta
 
-        cat ${i}.fasta >> muscle_input.fasta # write content of each fasta file to a single file
+        cat ${entry}.fasta >> muscle_input.fasta 
     done
 
-#Use generated file to download muscle
 muscle -align muscle_input.fasta -output muscle_output.afa
 ```
 
-### and a python solution...
 
-```python
-
-#!/usr/bin/env python3
-
-import wget
-import os
-
-
-URL = "http://www.uniprot.org/uniprot/"
-
-with open("uniprot_IDs.txt","r") as file:
- 	for line in file:
- 		wget.download(URL + line + ".fasta")
- 		
-
-with open("muscle_py_input","w") as file2:
-	for f in os.listdir():
-		if f.endswith(".fasta"):
-			with open(f) as fh:
-				file2.writelines(fh)
-```
 
 
 
