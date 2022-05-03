@@ -149,16 +149,76 @@ Write a script to download insulin protein sequences from uniPROT and use those 
 ***********************************************************************
 ***********************************************************************
 
-###
+### Reading files in python
 
+```python
+#!/usr/bin/env python3
+FILE = open("one.fa","r")
 
-###
+for line in FILE:
+    print(line)
 
+FILE.close()
+```
+### Writing files in python
 
-###
+```python
+#!/usr/bin/env python3
+FILE2 = open("XXX.txt","w")
 
+FILE2.write("hello IGC")
 
-###
+FILE2.close()
+```
+
+### Objects and methods
+Objects are instances of particular classes. Methods are funtions acting on those objects. 
+
+```python
+#!/usr/bin/env python3
+x = "atgcggcctagagctgatttgcgc"
+print(type(x))
+print(x.upper())
+print(x.count("g"))
+```
+
+```python
+#!/usr/bin/env python3
+x_list = [4,24,3,14,5]
+print(type(x_list))
+x_list.append(9)
+x_list.sort()
+print(x_list)
+```
+
+### Dictionaries
+
+Dictionaries are data types that allow us to associate a **key** to a **value**. 
+```python
+#!/usr/bin/env python3
+my_dictio = {"header_1":"ATAGCTGC", "header_2":"GGTAGATA","header_3":"GTGATAGA"}
+
+print(my_dictio)
+print(my_dictio.items())
+print(my_dictio.keys())
+print(my_dictio.values())
+```
+
+### if/else logical statements
+Allow to control the flow of the script. The `if` keyword followed by an expression defines a block of code that will only be executed if that statement is `True`.
+
+```python
+#!/usr/bin/env python3
+
+header = ">sp|Q09167|SRSF5_RAT"
+
+for element in header:
+    if element == ">":
+        print("Yes")
+
+    else:
+        print("No")
+```
 
 ## Exercise 2
 
@@ -174,20 +234,13 @@ In this exercise we will write a python script that will scan fasta files and ou
 ***********************************************************************
 ***********************************************************************
 
-### Other things I need to touch before moving to exercise 2
 
-**if/else statements**
-
-**nested loops (loops inside loops)**
-
-**reading and writing files in python**
-
-**empty lists**
-
-**objects and methods**
 
 ***********************************************************************
 ***********************************************************************
+
+### nested loops (loops inside loops)
+
 
 
 ## Exercise 3
