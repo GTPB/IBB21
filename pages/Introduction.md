@@ -1,6 +1,6 @@
 # Introduction to Scripting 
 
-![](../assets/readme_img/binary_dna.jpg)
+![](../assets/readme_img/screenshot.jpg)
 
 ### Why writing scripts?
 
