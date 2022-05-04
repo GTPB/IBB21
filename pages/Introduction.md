@@ -260,7 +260,7 @@ In this exercise we will write a python script to pre-process FASTQ files and fi
 An “Nn” means that the Illumina software was not able to make a basecall for this base. 
 
 
-[Solution for Exercise 3](Solution_3.md)
+[Solution for Exercise 3](Solution_3xxx.md)
 
 
 
