@@ -144,7 +144,7 @@ Write a script to download insulin protein sequences from uniPROT and use those 
    * Aggregate multiple fasta files in a single file for downstream analysis (MUSCLE input).
    * Use generated output as input for muscle 
 
-[Solution for Exercise 1](Solution_1.md)
+[Solution for Exercise 1](Solution_1xxx.md)
 
 ***********************************************************************
 ***********************************************************************
@@ -259,7 +259,7 @@ In this exercise we will write a python script to pre-process FASTQ files and fi
 An “N” means that the Illumina software was not able to make a basecall for this base. 
 
 
-[Solution for Exercise 2](Solution_2.md)
+[Solution for Exercise 3](Solution_2xxx.md)
 
 
 
