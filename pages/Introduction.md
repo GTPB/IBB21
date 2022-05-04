@@ -54,7 +54,7 @@ The idea behind scripting is to provide us a means of not just running a single 
 
 ### A simple script
 
-To run our very first script, we will take a couple of commands that are often used repetively in the command line and save them into a file so that we can use them later by typing **one single command**.
+To run our very first script, we will take a few commands that are often used in the command line and save them into a file so that we can using our script in **one single command**.
 
 Move to `Desktop/Scripting/exercise_1_Dir` and create a new file called `my_script.sh`. 
 
@@ -172,7 +172,7 @@ FILE2.close()
 ```
 
 ### Objects and methods
-Objects are instances of particular classes. Methods are funtions acting on those objects. 
+In python objects you can use methods that are defined for  data structures (or create new ones).  
 
 ```python
 #!/usr/bin/env python3

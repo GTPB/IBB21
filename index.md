@@ -47,13 +47,8 @@ schemadotorg:
 
 
 ### Course Description
-This is an **entry level** course for those with a biological background but **no experience** in scripting or programming. We aim to show that the automation of repetitive tasks as well as the handling of large amounts of biological data can be performed by anyone with a simple set of skills. We strongly believe that scripting extremely useful for life-scientists that are concerned with reproducibility and reliability. In this course, we will introduce bash and python 
-that are readily available and easy to learn and use.
 
 ### Learning objectives
-* Understanding what scripts are and how they are used.
-* Getting to know important features of scripts.
-* 
 
 
 
