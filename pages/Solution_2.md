@@ -54,5 +54,5 @@ for line in FASTA:
 for sequence in FASTA_Dict.values():
 	Perc_GC_Content = (sequence.count("G") + sequence.count("C")) /len(sequence) * 100
 
-	print(Perc_GC_Content)
+	print(FASTA_header + str(Perc_GC_Content))
 ```
