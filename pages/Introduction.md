@@ -257,7 +257,7 @@ In this exercise we will write a python script that will scan fasta files and ou
 When getting data from a sequencing facility, a common first task is to separate good and bad reads for downstream analysis. Keeping a good and clean FASTQ file reduces processing time and disk usage.
 In this exercise we will write a python script to pre-process FASTQ files and filter reads according to their percentage of `NNNNNNNs`.
 
-An “N” means that the Illumina software was not able to make a basecall for this base. 
+An “Nn” means that the Illumina software was not able to make a basecall for this base. 
 
 
 [Solution for Exercise 3](Solution_3.md)

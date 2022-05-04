@@ -36,7 +36,6 @@ bad_reads = []
 for line in F:
     reads.append(line)
 
-
 F.close()
 ```
 
