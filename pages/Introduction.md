@@ -210,7 +210,7 @@ Allow to control the flow of the script. The `if` keyword followed by an express
 ```python
 #!/usr/bin/env python3
 
-header = ">sp|Q09167|SRSF5_RAT"
+header = ">sp|Q09167|"
 
 for element in header:
     if element == ">":
@@ -222,20 +222,21 @@ for element in header:
 
 ## Exercise 2
 
-GC content is informative in several ways. For example, higher GC content levels indicate a relatively higher melting temperature in molecular biology. Also, DNA sequences that encode proteins tend to be found in GC-rich regions of the genome. A common task in bioinformatics is to extract contigs with a GC content percentage bellow a certain value. 
-In this exercise we will write a python script that will scan fasta files and output the percentage of GC content on each contig to the user.
+GC content is informative in several ways. Higher GC content levels indicate a relatively higher melting temperature in molecular biology. Also, DNA sequences that encode proteins tend to be found in GC-rich regions of the genome. A common task in bioinformatics is to extract contigs with a GC content percentage bellow a certain value. 
+In this exercise we will write a python script that will scan fasta files and output the percentage of GC content on each contig.
 
 **Intended learning outcomes:**
-*
-*
-*
-*
+* Using methods in python
+* Reading and writing files
+* Using empty data structures to populate with output of loops
+* Using if/else statements to separate headers from sequences in fasta files
 
 ***********************************************************************
 ***********************************************************************
+### enumerate()
 
 
-
+### nested loops (loops inside loops)
 ***********************************************************************
 ***********************************************************************
 
@@ -259,7 +260,7 @@ In this exercise we will write a python script to pre-process FASTQ files and fi
 An “N” means that the Illumina software was not able to make a basecall for this base. 
 
 
-[Solution for Exercise 3](Solution_2xxx.md)
+[Solution for Exercise 3](Solution_3.md)
 
 
 
