@@ -31,7 +31,7 @@ for line in FASTA:
 		FASTA_header = line
 		FASTA_Dict[FASTA_header] = ""
 	else:
-		FASTA_Dict[FASTA_header] += line
+		FASTA_Dict[FASTA_header] = FASTA_Dict[FASTA_header] + line
 
 ```
 *1.4*
@@ -49,7 +49,7 @@ for line in FASTA:
 		FASTA_header = line
 		FASTA_Dict[FASTA_header] = ""
 	else:
-		FASTA_Dict[FASTA_header] += line
+		FASTA_Dict[FASTA_header] = FASTA_Dict[FASTA_header] + line
 
 for sequence in FASTA_Dict.values():
 	Perc_GC_Content = (sequence.count("G") + sequence.count("C")) /len(sequence) * 100
