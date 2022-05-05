@@ -57,7 +57,7 @@ The idea behind scripting is to provide us a means of not just running a single 
 
 To run our very first script, we can take a couple commands and save them into a file so that we can run them in **one single command**.
 
-Create a new file called `my_script.sh` and populate with the following code:
+Create a new file called `my_script.sh` and write the following script:
 
 ```bash
 #!/bin/bash
