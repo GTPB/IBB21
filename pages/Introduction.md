@@ -6,11 +6,11 @@
 
 **Efficiency** 
 
-Automation of tasks enances recourse usage and reduces time consumption. 
+Automation of tasks enances resource usage and reduces time consumption. 
 
 **Accuracy**
 
-Typing the same commands over and over again is very prone to human error. allows tha same method to be used extensivelly
+Typing the same commands over and over again is very prone to human error. Scripts allow the same method to be used extensively.
 
 **Reproducibility**
 
@@ -18,13 +18,13 @@ A script becomes documentation of the work we performed on a machine. We have a 
 
 ### What is a script?
 
-A script is a text file living on the disk which has some text in it. Importantly, this text is a series of commands which will be executed line by line in sequence. When we run a script we are transfering the control of the system from the user to the script. The operating system will listen from the script and not from the command line. The script takes over.  
+A script is a text file living on the disk which has some text in it. Importantly, this text is a series of commands which will be executed line by line in sequence. When we run a script we are transfering the control of the system the script. The operating system will listen from the script and not from the user. The script takes over.  
 
 ### Scripts vs Programs
 
 Scripts do not do any significant computation on their own. Instead, they run "programs" that do the computational work itself. The job of a script is to **automate** and **document** the execution of programs that were already created by others. 
 
-As a result, scripting languages do not need to be very efficient (they can be orders of magnitude slower than compiled languages) so we can take advantage of it and write them in scripting languages which are much easier to write, read and debug.  
+As a result, scripting languages do not need to be very efficient. We can take advantage of that and write scripts in languages which are closer to human language and therefore easier to write, read and debug.  
 
 
 ### There are some special features in scripts:
@@ -146,8 +146,8 @@ Write a script to retrieve a set of insulin protein sequences from uniPROT and u
 
 ## Python
 
-### Objects and methods
-In python objects you can use methods that are defined for  data structures (or create new ones).  
+### Object methods
+Python objects have methods (functions) that are defined for specific data types.  
 
 ```python
 #!/usr/bin/env python3
@@ -273,10 +273,10 @@ for line in list_x:
 When getting data from a sequencing facility, a common first task is to separate good and bad reads for downstream analysis. Keeping a good and clean FASTQ file reduces processing time and disk usage.
 In this exercise we will write a python script to pre-process FASTQ files and filter reads according to their percentage of `NNNNNNNs`.
 
-An “Nn” means that the Illumina software was not able to make a basecall for this base. 
+An “N” means that the Illumina software was not able to make a basecall for this base. 
 
 
-[Solution for Exercise 3](Solution_3xxx.md)
+[Solution for Exercise 3](Solution_.md)
 
 
 
