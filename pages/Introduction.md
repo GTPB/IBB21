@@ -116,10 +116,10 @@ The syntax and structure of a for loop does not change much. What we might chang
 We can make scripts more versatile, cofigurable and usable by parsing arguments to it. 
 
 ```bash
-#!/bin/bash
+#!/bin/bash 
 
-multiply 
-echo ${1,2}
+sum=$(($1 + $2))
+echo "Sum = $sum"
 ```
 
 ## Exercise 1
@@ -144,11 +144,36 @@ Write a script to retrieve a set of insulin protein sequences from uniPROT and u
 ***********************************************************************
 ***********************************************************************
 
+## Python
+
+### Objects and methods
+In python objects you can use methods that are defined for  data structures (or create new ones).  
+
+```python
+#!/usr/bin/env python3
+x = "atgcggcctagagctgatttgcgc"
+print(type(x))
+print(x.upper())
+print(x.count("g"))
+```
+```python
+#!/usr/bin/env python3
+x_list = [4,24,3,14,5]
+print(type(x_list))
+x_list.append(9)
+x_list.sort()
+print(x_list)
+```
+
 ### Reading files in python
 
 ```python
 #!/usr/bin/env python3
 FILE = open("one.fa","r")
+
+# .read()
+# .readlines()
+# .readline()
 
 for line in FILE:
     print(line)
@@ -166,25 +191,6 @@ FILE2.write("hello IGC")
 FILE2.close()
 ```
 
-### Objects and methods
-In python objects you can use methods that are defined for  data structures (or create new ones).  
-
-```python
-#!/usr/bin/env python3
-x = "atgcggcctagagctgatttgcgc"
-print(type(x))
-print(x.upper())
-print(x.count("g"))
-```
-
-```python
-#!/usr/bin/env python3
-x_list = [4,24,3,14,5]
-print(type(x_list))
-x_list.append(9)
-x_list.sort()
-print(x_list)
-```
 
 ### Dictionaries
 
@@ -220,14 +226,15 @@ for element in header:
 GC content is informative in several ways. Higher GC content levels indicate a relatively higher melting temperature in molecular biology. Also, DNA sequences that encode proteins tend to be found in GC-rich regions of the genome. A common task in bioinformatics is to extract contigs with a GC content percentage bellow a certain value. 
 In this exercise we will write a python script that will scan fasta files and output the percentage of GC content on each contig.
 
-**Intended learning outcomes:**
-* Using methods in python
+**Intended learning outcomes:** 
 * Reading and writing files
+* Using methods in python
 * Using empty data structures to populate with output of loops
 * Using if/else statements to separate headers from sequences in fasta files
 
 ***********************************************************************
 ***********************************************************************
+
 ### enumerate() function
 A foor loop usually aims to iterate over an iterable object. That means we usually don't a counting variable to access elements of the iterable. Sometimes, however, we might want to have a variable that changes on each loop iteration. By using `enumerate()` we get a **counter** and the **value** of the iterable at the same time.
 
@@ -240,15 +247,18 @@ for index, sequence in enumerate(a_list):
     print(index,sequence)
 ```
 
-
-
 ### nested loops (loops inside loops)
+```python
+#!/usr/bin/env python3
+
+list_x = ["ATGCTGA","ATGATGCT","GGTAGTTGA","ATAGCTGA"]
+
+for line in list_x:
+    for letter in line:
+        print(letter)
+```
 ***********************************************************************
 ***********************************************************************
-
-### nested loops (loops inside loops)
-
-
 
 ## Exercise 3
 
