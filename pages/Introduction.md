@@ -6,11 +6,11 @@
 
 **Efficiency** 
 
-Automation of tasks makes your work extremelly efficient. 
+Automation of tasks enances recourse usage and reduces time consumption. 
 
 **Accuracy**
 
-Typing the same commands over and over again is very prone to human error.
+Typing the same commands over and over again is very prone to human error. allows tha same method to be used extensivelly
 
 **Reproducibility**
 
@@ -34,6 +34,7 @@ Special comment line (tells the system how you want the script to be interpreted
 ```bash
 #!/bin/bash
 ```
+or
 ```python
 #!/usr/bin/env python3
 ```
@@ -66,11 +67,9 @@ We want our simple script to do two things:
 
 ```bash
 #!/bin/bash
-echo "hello IGC"
-pwd
-ls -l
-sleep 3
-echo "I am done..."
+echo "hello IGC, I'll come back in 5 seconds..."
+sleep 5
+echo "I am back"
 ```
 
 ### Powerful and versatile scripts
@@ -119,19 +118,15 @@ We can make scripts more versatile, cofigurable and usable by parsing arguments 
 ```bash
 #!/bin/bash
 
-VAR="hello world"
-SLEEP=3
-
-echo ${VAR}
-sleep ${SLEEP}
-echo ${1}
+multiply 
+echo ${1,2}
 ```
 
 ## Exercise 1
 
 **Intended learning outcomes:**
 
-Write a script to download insulin protein sequences from uniPROT and use those sequences to build a multiple alignment using MUSCLE. The uniPROT entries are in a text file called `uniprot_ids.txt` in the `exercise_1_Dir`directory.
+Write a script to retrieve a set of insulin protein sequences from uniPROT and use those sequences to build a multiple alignment using MUSCLE. The uniPROT entry names are in a text file called `uniprot_ids.txt` in the `exercise_1_Dir`directory.
 
 
 **url:**`http://www.uniprot.org/uniprot/`
@@ -233,7 +228,18 @@ In this exercise we will write a python script that will scan fasta files and ou
 
 ***********************************************************************
 ***********************************************************************
-### enumerate()
+### enumerate() function
+A foor loop usually aims to iterate over an iterable object. That means we usually don't a counting variable to access elements of the iterable. Sometimes, however, we might want to have a variable that changes on each loop iteration. By using `enumerate()` we get a **counter** and the **value** of the iterable at the same time.
+
+```python
+#!/usr/bin/env python3
+
+a_list = ["ATGCTGA","ATGATGCT","GGTAGTTGA","ATAGCTGA"]
+
+for index, sequence in enumerate(a_list):
+    print(index,sequence)
+```
+
 
 
 ### nested loops (loops inside loops)
