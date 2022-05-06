@@ -222,7 +222,7 @@ In this exercise we will write a python script that scans fasta files and output
 * Using empty data structures to populate with output of loops
 * Using if/else statements to separate headers from sequences in fasta files
 
-[Solution for Exercise 2](pages/Solution_2.md)
+[Solution for Exercise 2](Solution_2.md)
 
 ***********************************************************************
 ***********************************************************************
@@ -265,7 +265,7 @@ In this exercise we will write a python script to pre-process FASTQ files and fi
 * Using nested loops 
 * Write data into files
 
-[Solution for Exercise 3](pages/Solution_3.md)
+[Solution for Exercise 3](Solution_3.md)
 
 
 
