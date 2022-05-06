@@ -130,7 +130,7 @@ Write a script to retrieve a set of insulin protein sequences from uniPROT and u
    * Aggregate multiple fasta files in a single file for downstream analysis (MUSCLE input).
    * Use generated output as input for muscle. 
 
-[Solution for Exercise 1](pages/Solution_1.md)
+[Solution for Exercise 1](Solution_1.md)
 
 ***********************************************************************
 ***********************************************************************
