@@ -105,7 +105,7 @@ for element in a b c d
 ```
 The syntax and structure of a for loop does not change much. What we might change is the input for it and where we get those inputs from. 
 
-### Parsing arguments to scripts
+### Passing arguments to scripts
 
 We can make scripts more versatile, configurable and usable by parsing arguments to it. 
 
