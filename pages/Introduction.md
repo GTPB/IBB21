@@ -214,7 +214,7 @@ for element in header:
 ## Exercise 2
 
 GC content is informative in several ways. Higher GC content levels indicate a relatively higher melting temperature in molecular biology. Also, DNA sequences that encode proteins tend to be found in GC-rich regions of the genome. A common task in bioinformatics is to extract contigs with a GC content percentage bellow a certain value. 
-In this exercise we will write a python script that scans fasta files and output the percentage of GC content on each contig.
+In this exercise we will write a python script that scans fasta files and outputs the percentage of GC content on each contig.
 
 **Intended learning outcomes:** 
 * Reading and writing files
@@ -226,7 +226,7 @@ In this exercise we will write a python script that scans fasta files and output
 ***********************************************************************
 
 ### enumerate() function
-A foor loop usually aims to iterate over an iterable object. That means we usually don't a counting variable to access elements of the iterable. Sometimes, however, we might want to have a variable that changes on each loop iteration. By using `enumerate()` we get a **counter** and the **value** of the iterable at the same time.
+A foor loop usually aims to iterate over an iterable object. That means we usually don't need a counting variable to access elements of the iterable. Sometimes, however, we might want to have a variable that changes on each loop iteration. By using `enumerate()` we get a **counter** and the **value** of the iterable at the same time.
 
 ```python
 #!/usr/bin/env python3
