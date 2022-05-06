@@ -130,7 +130,7 @@ Write a script to retrieve a set of insulin protein sequences from uniPROT and u
    * Aggregate multiple fasta files in a single file for downstream analysis (MUSCLE input).
    * Use generated output as input for muscle. 
 
-[Solution for Exercise 1](Solution_1xxx.md)
+[Solution for Exercise 1](pages/Solution_1.md)
 
 ***********************************************************************
 ***********************************************************************
@@ -222,6 +222,8 @@ In this exercise we will write a python script that scans fasta files and output
 * Using empty data structures to populate with output of loops
 * Using if/else statements to separate headers from sequences in fasta files
 
+[Solution for Exercise 2](pages/Solution_2.md)
+
 ***********************************************************************
 ***********************************************************************
 
@@ -252,6 +254,9 @@ for line in list_x:
 
 ## Exercise 3
 
+When getting data from a sequencing facility, a common first task is to separate good and bad reads for downstream analysis. Keeping a good and clean FASTQ file reduces processing time and disk usage.
+In this exercise we will write a python script to pre-process FASTQ files and filter reads according to their percentage of `NNNNNNNs`. An “N” means that the Illumina software was not able to make a basecall for this base. 
+
 **Intended learning outcomes:**
 
 * Getting data into python environment 
@@ -260,13 +265,7 @@ for line in list_x:
 * Using nested loops 
 * Write data into files
 
-When getting data from a sequencing facility, a common first task is to separate good and bad reads for downstream analysis. Keeping a good and clean FASTQ file reduces processing time and disk usage.
-In this exercise we will write a python script to pre-process FASTQ files and filter reads according to their percentage of `NNNNNNNs`.
-
-An “N” means that the Illumina software was not able to make a basecall for this base. 
-
-
-[Solution for Exercise 3](Solution_.md)
+[Solution for Exercise 3](pages/Solution_3.md)
 
 
 
