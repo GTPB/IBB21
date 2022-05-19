@@ -6,7 +6,7 @@
 
 **Efficiency** 
 
-Automation of tasks enances resource usage and reduces time consumption. 
+Automation of tasks enhances resource usage and reduces time consumption. 
 
 **Accuracy**
 
@@ -72,7 +72,7 @@ echo "I am back"
 * Conditional repetition 
 * Passing arguments into scripts
 
-BASH and Python allow us to perform conditional repetition, have readable and writable mechanisms of storage and have ways of passing arguments ro scripts.
+BASH and Python allow us to perform conditional repetition, have readable and writable mechanisms of storage and have ways of passing arguments to scripts.
 
 ### Variables
 
