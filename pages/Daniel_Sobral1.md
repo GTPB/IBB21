@@ -1,3 +1,3 @@
 # Introduction to Scripting
 
-![](../assets/readme_img/IGC_Tower_DSCF7958_ed.webp)
+![](../assets/readme_img/IBB2022v2.pdf)
