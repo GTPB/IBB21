@@ -4,8 +4,8 @@
 
 ### Why writing scripts?
 
-<embed src="../assets/IBB2022v2.pdf" width="500" height="375" 
- type="application/pdf">
+<p>adding a paragraph with html tag</p>
+<h1>adding header with html tag</h1>
 
 **Efficiency**
 
