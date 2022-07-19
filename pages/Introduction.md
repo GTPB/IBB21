@@ -11,7 +11,7 @@
       data="../assets/IBB2022v2.pdf"
       style="width: 1200px; height: 600px"
       class="center"
-    />
+    ></object>
   </body>
 </html>
 
