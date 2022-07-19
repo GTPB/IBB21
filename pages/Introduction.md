@@ -4,6 +4,17 @@
 
 ### Why writing scripts?
 
+<html>
+  <body>
+    <p>igc</p>
+    <object
+      data="../assets/IBB2022v2.pdf"
+      style="width: 1200px; height: 600px"
+      class="center"
+    />
+  </body>
+</html>
+
 **Efficiency**
 
 Automation of tasks enhances resource usage and reduces time consumption.
