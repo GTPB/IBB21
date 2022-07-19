@@ -4,7 +4,11 @@
 
 ### Why writing scripts?
 
+<<<<<<< HEAD
 looks like its only pushin on master. xxxxxxxxxx
+=======
+looks like its only pushin on master. xxxxxxxxxx. yyyyyyyyyyyyyy
+>>>>>>> master
 
 **Efficiency**
 
