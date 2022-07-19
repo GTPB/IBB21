@@ -4,9 +4,8 @@
 
 ### Why writing scripts?
 
-fgdfgdfgdfgdfg
-gfd
-gdfgdfgdfs
+looks like its only pushin on master.
+
 **Efficiency**
 
 Automation of tasks enhances resource usage and reduces time consumption.
