@@ -1,3 +1,3 @@
-### Testing on IGC machine
+# Introduction to Scripting
 
-![](../assets/Single_Cell_05_05_2022.pptx)
+![](../assets/readme_img/IBB2022v2.pdf)
