@@ -1,10 +1,12 @@
+{::options parse_block_html="true" /}
+
 # Introduction to Scripting
 
 ![](../assets/readme_img/IGC_Tower_DSCF7958_ed.webp)
 
 ### Why writing scripts?
 
-<embed src= "../assets/IBB2022v2.pdf" type = "application/pdf">
+<object data = "../assets/IBB2022v2.pdf"/>
 
 **Efficiency**
 
