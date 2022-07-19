@@ -4,7 +4,10 @@
 
 ### Why writing scripts?
 
-done? apparently yes!
+<p>adding a paragraph with html tag</p>
+<h1>adding header with html tag</h1>
+
+<object data="../assets/IBB2022v2.pdf" width="800" height="500"></object>
 
 **Efficiency**
 
