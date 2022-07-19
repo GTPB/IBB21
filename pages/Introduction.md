@@ -4,7 +4,7 @@
 
 ### Why writing scripts?
 
-looks like its only pushin on master.
+looks like its only pushin on master. xxxxxxxxxx
 
 **Efficiency**
 
