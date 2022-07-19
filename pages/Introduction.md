@@ -4,7 +4,7 @@
 
 ### Why writing scripts?
 
-done?
+done? apparently yes!
 
 **Efficiency**
 
