@@ -4,7 +4,7 @@
 
 ### Why writing scripts?
 
-<embed src= "../assets/IBB2022v2.pdf">
+<embed src= "../assets/IBB2022v2.pdf" type = "application/pdf">
 
 **Efficiency**
 
