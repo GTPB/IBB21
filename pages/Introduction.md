@@ -1,12 +1,10 @@
-{::options parse_block_html="true" /}
-
 # Introduction to Scripting
 
 ![](../assets/readme_img/IGC_Tower_DSCF7958_ed.webp)
 
 ### Why writing scripts?
 
-<object data = "../assets/IBB2022v2.pdf"/>
+<object data="{{ site.url }}{{ site.baseurl }}/../assets/IBB2022v2.pdf .pdf" width="1000" height="1000" type="application/pdf"></object>
 
 **Efficiency**
 
