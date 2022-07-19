@@ -4,7 +4,7 @@
 
 ### Why writing scripts?
 
-<object data="{{ site.url }}{{ site.baseurl }}/../assets/IBB2022v2.pdf .pdf" width="1000" height="1000" type="application/pdf"></object>
+<object data="{{ site.url }}{{ site.baseurl }}/../assets/IBB2022v2.pdf" width="1000" height="1000" type="application/pdf"></object>
 
 **Efficiency**
 
