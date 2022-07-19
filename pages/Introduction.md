@@ -7,7 +7,7 @@
 <p>adding a paragraph with html tag</p>
 <h1>adding header with html tag</h1>
 
-<p>Open a PDF file <a href="/Users/gleiria/Desktop/IBB21/IBB21/assets/IBB2022v2.pdf">example</a>.</p>
+<object data="../assets/IBB2022v2.pdf" width="800" height="500"></object>
 
 **Efficiency**
 
