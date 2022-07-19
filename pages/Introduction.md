@@ -4,8 +4,7 @@
 
 ### Why writing scripts?
 
-looks like its only pushin on master. xxxxxxxxxx. yyyyyyyyyyyyyy
-ddsadfasdfasfds
+done?
 
 **Efficiency**
 
