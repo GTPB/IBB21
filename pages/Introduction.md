@@ -4,7 +4,7 @@
 
 ### Why writing scripts?
 
-done? apparently yes!
+<embed src= "../assets/IBB2022v2.pdf">
 
 **Efficiency**
 
