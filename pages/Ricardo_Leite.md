@@ -1,6 +1,6 @@
 ![](assets/readme_img/IGC_Tower_DSCF7958_ed.webp)
 
-# Day2
+# Day222
 
 ### Handling Sequence Data (RNA-seq)
 
