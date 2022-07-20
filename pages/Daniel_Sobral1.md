@@ -1,13 +1,7 @@
-# Day 3
+![](assets/readme_img/IGC_Tower_DSCF7958_ed.webp)
 
-## Variant Calling
+# Day3
 
-<style>
-.center {
-  margin: auto;
-  width: 100%;
-  height: 500%;
-}
-</style>
+### Variant Calling
 
 <object data="../assets/Variant_Calling_04_05_2022.pdf" class = "center"></object>

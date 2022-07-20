@@ -2,7 +2,7 @@
 
 # Day2
 
-## Handling Sequence Data (RNA-seq)
+### Handling Sequence Data (RNA-seq)
 
 1. [Data for exercises](pages/Jingtao.md)
 
