@@ -6,6 +6,7 @@
 .center {
   margin: auto;
   width: 100%;
+  height: 500%;
 }
 </style>
 
