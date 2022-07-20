@@ -3,11 +3,10 @@
 ## Variant Calling
 
 <style>
-object {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.center {
+  margin: auto;
+  width: 60%;
 }
 </style>
 
-<object data="../assets/Variant_Calling_04_05_2022.pdf" style = "width:50%;"></object>
+<object data="../assets/Variant_Calling_04_05_2022.pdf" class = "center"></object>
