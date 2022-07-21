@@ -2,6 +2,12 @@
 
 # Day 1
 
-## Intro to Bioinformatics, Sequence Data, RNA-seq
+## Intro to Bioinformatics, RNA-seq Data
+
+<style>
+object{
+    background-color: lightblue;
+}
+</style>
 
 <object data="../assets/IBB2022_tao.pdf " width="1000" height="500" margin = "auto"></object>
