@@ -8,7 +8,7 @@ schemadotorg:
   # Course details
   # "name" -> The acronym and extended name of the course, separated by " - "
   # "description" -> Short description of the course
-  name: "GTPB/IBB21 - Introduction to Scripting"
+  name: "GTPB/IBB21"
   description: ""
 
   # Keywords -> Consult EDAM:Topic
@@ -55,7 +55,7 @@ schemadotorg:
 ### Learning objectives
 
 1.  <a href="assets/IBB2022_tao.pdf">Day 1, Introduction to Bioinformatics, RNA-seq Data</a>
-2.  <a href="assets/IBB2022v2.pdf">Day 2, Handling Sequence Data</a>
+2.  <a href="assets/IBB2022v3.pdf">Day 2, Handling Sequence Data</a>
 3.  <a href="assets/Variant_Calling_04_05_2022.pdf">Day 3, Variant Calling</a>
 4.  <a href="assets/Single_Cell_05_05_2022.pdf">Day 4, Single Cell RNA-seq</a>
 5.  [Day 5, Using Scripts to Automate Bioinformatics Data Analysis](pages/Introduction.md)
@@ -72,9 +72,9 @@ schemadotorg:
 
 ---
 
-# The source for this course webpage is [on github](https://github.com/GTPB/Web_course_template).
+**The source for this course webpage is [on github](https://github.com/GTPB/Web_course_template).**
 
-The source for this course webpage is [in github](https://github.com/GTPB/Web_course_template).
+**The source for this course webpage is [in github](https://github.com/GTPB/Web_course_template).**
 
 <br/>
 
