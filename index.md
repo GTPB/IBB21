@@ -54,11 +54,11 @@ schemadotorg:
 
 ### Learning objectives
 
-1.  <p>Day 1, Intro to Bioinformatics, RNA-seq Data <a href="assets/IBB2022_tao.pdf">Material</a>.</p>
-2.  [Day 2, Handling Sequence Data, RNA-seq](pages/Ricardo_Leite.md)
-3.  [Day 3, Variant Calling / Single Cell RNA-seq](pages/Daniel_Sobral1.md)
-4.  [Day 4, Single Cell RNA-seq](pages/Daniel_Sobral2.md)
-5.  [Day 5, Using Scripts to Automate Bioinformatics Data Analysis](pages/Introduction.md)
+1.  <p>Day 1, Intro to Bioinformatics, RNA-seq Data. <a href="assets/IBB2022_tao.pdf">(course material)</a>.</p>
+2.  <p>Day 2, Handling Sequence Data. <a href="IBB2022v2.pdf">(course material)</a>.</p>
+3.  <p>Day 3, Variant Calling. <a href="Variant_Calling_04_05_2022.pdf">(course material)</a>.</p>
+4.  <p>Day 4, Single Cell RNA-seq. <a href="Single_Cell_05_05_2022.pdf">(course material)</a>.</p>
+5.  <p>Day 5, Using Scripts to Automate Bioinformatics Data Analysis. <a href="pages/Introduction.md">(course material)</a>.</p>
 
 ---
 
