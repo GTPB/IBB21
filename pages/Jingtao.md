@@ -4,4 +4,4 @@
 
 ## Intro to Bioinformatics, Sequence Data, RNA-seq
 
-testing page
+<object data="../assets/IBB2022_tao.pdf " width="1000" height="500" margin = "auto"></object>
