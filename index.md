@@ -6,16 +6,22 @@ schemadotorg:
   "genre": TrainingMaterial
 
   # Course details
-       # "name" -> The acronym and extended name of the course, separated by " - "
-       # "description" -> Short description of the course
+  # "name" -> The acronym and extended name of the course, separated by " - "
+  # "description" -> Short description of the course
   name: "GTPB/IBB21 - Introduction to Scripting"
   description: ""
 
   # Keywords -> Consult EDAM:Topic
-  keywords:  ""
+  keywords: ""
 
   # Audience -> Following Elixir-Tess input
-  audience: ["Academia/ Research Institution", "Industry", "Non-Profit Organisation", "Healthcare"]
+  audience:
+    [
+      "Academia/ Research Institution",
+      "Industry",
+      "Non-Profit Organisation",
+      "Healthcare",
+    ]
 
   # Author info
   author:
@@ -42,38 +48,32 @@ schemadotorg:
   url: "https://gtpb.github.io/IBB21/"
 ---
 
-
 ![](assets/readme_img/IGC_Tower_DSCF7958_ed.webp)
-
 
 ### Course Description
 
 ### Learning objectives
 
-
-
-
-1. [Day 1, Intro to Bioinformatics, Sequence Data, RNA-seq](pages/Jingtao.md)
-2. [Day 2, Handling Sequence Data, RNA-seq](pages/Ricardo_Leite.md)
-3. [Day 3, Variant Calling / Single Cell RNA-seq](pages/Daniel_Sobral1.md)
-4. [Day 4, Single Cell RNA-seq](pages/Daniel_Sobral2.md)
-5. [Day 5, Using Scripts to Automate Bioinformatics Data Analysis](pages/Introduction.md)
-
+1.  <p>Day 1, Intro to Bioinformatics, RNA-seq Data <a href="assets/IBB2022_tao.pdf">Material</a>.</p>
+2.  [Day 2, Handling Sequence Data, RNA-seq](pages/Ricardo_Leite.md)
+3.  [Day 3, Variant Calling / Single Cell RNA-seq](pages/Daniel_Sobral1.md)
+4.  [Day 4, Single Cell RNA-seq](pages/Daniel_Sobral2.md)
+5.  [Day 5, Using Scripts to Automate Bioinformatics Data Analysis](pages/Introduction.md)
 
 ---
-
 
 ### Instructors
 
-* Pedro Fernandes
-* Jingtao Lilue
-* Ricardo Leite
-* Daniel Sobral
-* Gonçalo Leiria
+- Pedro Fernandes
+- Jingtao Lilue
+- Ricardo Leite
+- Daniel Sobral
+- Gonçalo Leiria
 
 ---
-The source for this course webpage is [on github](https://github.com/GTPB/Web_course_template).
-=======
+
+# The source for this course webpage is [on github](https://github.com/GTPB/Web_course_template).
+
 The source for this course webpage is [in github](https://github.com/GTPB/Web_course_template).
 
 <br/>
