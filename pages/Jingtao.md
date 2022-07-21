@@ -4,10 +4,7 @@
 
 ## Intro to Bioinformatics, RNA-seq Data
 
-<style>
-object{
-    background-color: lightblue;
-}
-</style>
-
-<object data="../assets/IBB2022_tao.pdf " width="1000" height="500" margin = "auto"></object>
+<body>
+    <h1>PDF Example</h1>
+    <p>Open a PDF file <a href="../assets/IBB2022_tao.pdf">example</a>.</p>
+  </body>
