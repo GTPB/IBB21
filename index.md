@@ -72,9 +72,9 @@ schemadotorg:
 
 ---
 
-**Course webpage created by [Goncalo Leiria](https://twitter.com/GndLeiria).**
+**Webpage created by [Goncalo Leiria](https://twitter.com/GndLeiria).**
 
-Source code available on [github](https://github.com/GTPB/Web_course_template).
+**Source code available on [github](https://github.com/GTPB/Web_course_template).**
 
 <br/>
 
