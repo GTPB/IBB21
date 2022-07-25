@@ -72,9 +72,9 @@ schemadotorg:
 
 ---
 
-**The source for this course webpage is [on github](https://github.com/GTPB/Web_course_template).**
+The source for this course webpage is [on github](https://github.com/GTPB/Web_course_template).
 
-**The source for this course webpage is [in github](https://github.com/GTPB/Web_course_template).**
+**Course webpage created by [Goncalo Leiria](https://twitter.com/GndLeiria).**
 
 <br/>
 
