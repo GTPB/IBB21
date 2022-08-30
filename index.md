@@ -56,12 +56,6 @@ This course provides a contact with a set of themes that illustrates the role of
 
 ### Detailed Schedule
 
-1.  <a href="assets/IBB2022_tao.pdf">Day 1, Introduction to Bioinformatics, RNA-seq Data</a>
-2.  <a href="assets/IBB2022v3.pdf">Day 2, Handling Sequence Data</a>
-3.  <a href="assets/Variant_Calling_04_05_2022.pdf">Day 3, Variant Calling</a>
-4.  <a href="assets/Single_Cell_05_05_2022.pdf">Day 4, Single Cell RNA-seq</a>
-5.  [Day 5, Using Scripts to Automate Bioinformatics Data Analysis](pages/Introduction.md)
-
 **Monday, May 2nd**
 
 <a href= "assets/IBB2022_tao.pdf">Introduction to Bioinformatics, Sequence Data, RNA-seq</a>
