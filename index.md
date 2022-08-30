@@ -50,11 +50,11 @@ schemadotorg:
 
 ![](assets/readme_img/IGC_Tower_DSCF7958_ed.webp)
 
-## Course Description
+### Course Description and Learning Objectives
 
 This course provides a contact with a set of themes that illustrates the role of Bioinformatics in Biomedical research: tools and data resources, RNA-seq for differential gene expression, genomes and their annotation, genome alignment and variant calling, and single cell RNA-seq. This exposure to a diversity of techniques is then complemented with a daylong session about automation of analytical tasks using scripting in Unix shell and Python. The course content invites IBB students to an encompassing, integrated vision of Bioinformatics approaches in the scope of Open Science, collaborative work, hypothesis generation and testing.
 
-## Learning objectives
+### Detailed Schedule
 
 1.  <a href="assets/IBB2022_tao.pdf">Day 1, Introduction to Bioinformatics, RNA-seq Data</a>
 2.  <a href="assets/IBB2022v3.pdf">Day 2, Handling Sequence Data</a>
@@ -62,13 +62,9 @@ This course provides a contact with a set of themes that illustrates the role of
 4.  <a href="assets/Single_Cell_05_05_2022.pdf">Day 4, Single Cell RNA-seq</a>
 5.  [Day 5, Using Scripts to Automate Bioinformatics Data Analysis](pages/Introduction.md)
 
----
+**Monday, May 2nd**
 
-## Detailed Schedule
-
-### Monday, May 2nd
-
-**Introduction to Bioinformatics, Sequence Data, RNA-seq**
+<a href= "assets/IBB2022_tao.pdf">Introduction to Bioinformatics, Sequence Data, RNA-seq</a>
 
 09h30-11h00: Introduction (Pedro Fernandes)
 
@@ -80,9 +76,9 @@ This course provides a contact with a set of themes that illustrates the role of
 
 ---
 
-### Tuesday, May 3rd
+**Tuesday, May 3rd**
 
-**Handling sequence data (NGS)**
+<a href= "assets/IBB2022v3.pdf">Handling sequence data (NGS)</a>
 
 09h30-11h00: Introduction to NGS Data and FASTQ format (Ricardo Leite)
 
@@ -94,9 +90,9 @@ This course provides a contact with a set of themes that illustrates the role of
 
 ---
 
-### Wednesday, May 4th
+**Wednesday, May 4th**
 
-**Variant calling / Single Cell RNA-seq**
+<a href= "assets/Variant_Calling_04_05_2022.pdf">Variant calling / Single Cell RNA-seq</a>
 
 09h30-11h00: Principles of Variant Calling (Daniel Sobral)
 
@@ -108,9 +104,9 @@ This course provides a contact with a set of themes that illustrates the role of
 
 ---
 
-### Thursday May, 5th
+**Thursday May, 5th**
 
-**Single Cell RNA-seq**
+<a href= "assets/Single_Cell_05_05_2022.pdf">Single Cell RNA-seq</a>
 
 09h30-11h00: Principles of Single-Cell RNA-Seq Analysis (Daniel Sobral)
 
@@ -122,9 +118,9 @@ This course provides a contact with a set of themes that illustrates the role of
 
 ---
 
-### Friday, May 6th
+**Friday, May 6th**
 
-**Using scripts to automate bioinformatics data analysis**
+[Using Scripts to Automate Bioinformatics Data Analysis](pages/Introduction.md)
 
 09h30-11h00: Scripting for automation (Gonçalo Leiria)
 
@@ -134,7 +130,7 @@ This course provides a contact with a set of themes that illustrates the role of
 
 16h30-18h00: Final wrap-up (Pedro Fernandes, Gonçalo Leiria)
 
-## Instructors
+### Instructors
 
 - Pedro Fernandes
 - Jingtao Lilue
