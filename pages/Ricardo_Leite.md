@@ -4,6 +4,4 @@
 
 ### Handling Sequence Data (RNA-seq)
 
-1. [Data for exercises](pages/Jingtao.md)
-
 <object data="../assets/IBB2022v2.pdf" width="1000" height="500" margin = "auto"></object>
