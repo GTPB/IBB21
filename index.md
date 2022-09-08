@@ -135,7 +135,7 @@ This course provides a contact with a set of themes that illustrates the role of
 ---
 
 **Note:** Bioinformatics hands-on training happens regularly at the IGC.
-A variety of themes is offered using consistent methods for the design and delivery of training courses. Please check this [website](http://gtpb.igc.gulbenkian.pt").
+A variety of themes is offered using consistent methods for the design and delivery of training courses. Please checktthe [website of the GTPB Programme](http://gtpb.igc.gulbenkian.pt) .
 
 **Webpage created by [Goncalo Leiria](https://twitter.com/GndLeiria).**
 
